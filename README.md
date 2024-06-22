@@ -1,37 +1,32 @@
 # Abrupt
-#### Rust Crate Package
-***implementing cryptographic and mathematical utilities.***
-
-![Crates.io](https://img.shields.io/crates/v/abrupt)
+### Rust Package
+##### **(Cryptographic & Mathematic)**
 
 ## Modules
-
 #### Cryptographic Operations
-- Secure hash algorithms
-  - SHA-256
-  - SHA-512
-- Message digest algorithm
-  - MD5
-- Data encoding
-  - Base16 (hexadecimal)
-  - Base32
-  - Base64
-
+1. **Hash Algorithms**
+    - SHA-256
+    - SHA-512
+    - MD5
+2. **Data encoding**
+    - Base16 (Hexadecimal)
+    - Base32
+    - Base64
 #### Mathematical Utilities
-- Array computations
-  - Summation
-  - Product calculation
-  - Average determination
-  - Minimum and maximum value extraction
-- Number theory
-  - Factorial computation
-  - Greatest common divisor (GCD)
-  - Least common multiple (LCM)
-  - Primality testing
-- Fundamental mathematical operations
-  - Exponentiation
-  - Absolute value calculation
-  - Value clamping
+1. **Array Computation**
+    - Summation
+    - Product Calculation
+    - Average Determination
+    - Minimum and Maximum Value
+2. **Number Theory**
+    - Factorial
+    - Greatest Common Divisor (GCD)
+    - Least Common Multiple (LCM)
+    - Primality Testing
+2. **Fundamental Mathematical Operations**
+    - Exponentiation
+    - Absolute Value
+    - Value Clamping
 
 ## Installation
 
