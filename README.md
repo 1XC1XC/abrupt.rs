@@ -1,72 +1,51 @@
 # Abrupt
+#### Rust Crate Package
+***implementing cryptographic and mathematical utilities.***
 
-Abrupt is a comprehensive Rust library that provides a collection of cryptographic and mathematical utilities. It aims to offer efficient and easy-to-use implementations of common algorithms and functions.
+![Crates.io](https://img.shields.io/crates/v/abrupt)
 
-## Core Functionalities
+## Modules
 
-Abrupt provides a robust set of cryptographic and mathematical utilities:
-
-### Cryptographic Operations
-- Secure Hash Algorithms:
+#### Cryptographic Operations
+- Secure hash algorithms
   - SHA-256
   - SHA-512
-- Message Digest Algorithm:
+- Message digest algorithm
   - MD5
-- Data Encoding:
-  - Base16 (Hexadecimal)
+- Data encoding
+  - Base16 (hexadecimal)
   - Base32
   - Base64
 
-### Mathematical Utilities
-- Array Computations:
+#### Mathematical Utilities
+- Array computations
   - Summation
   - Product calculation
   - Average determination
   - Minimum and maximum value extraction
-- Number Theory:
+- Number theory
   - Factorial computation
-  - Greatest Common Divisor (GCD)
-  - Least Common Multiple (LCM)
+  - Greatest common divisor (GCD)
+  - Least common multiple (LCM)
   - Primality testing
-- Fundamental Mathematical Operations:
+- Fundamental mathematical operations
   - Exponentiation
   - Absolute value calculation
   - Value clamping
 
 ## Installation
 
-Add this to your `Cargo.toml`:
+**Cargo Command:**
+```sh
+cargo add abrupt
+```
 
+**Cargo.toml:**
 ```toml
 [dependencies]
 abrupt = "0.1.0"
 ```
 
-## Usage
-
-Here are some quick examples of how to use Abrupt:
-
-```rust
-use abrupt::crypto::{sha256, base64};
-use abrupt::math::{factorial, is_prime};
-
-fn main() {
-    // Cryptography
-    let hash = sha256(b"Hello, world!");
-    println!("SHA-256 hash: {:?}", hash);
-
-    let encoded = base64::encode(b"Abrupt is awesome!");
-    println!("Base64 encoded: {}", encoded);
-
-    // Mathematics
-    let fact = factorial(5);
-    println!("5! = {}", fact);
-
-
-    let prime_check = is_prime(17);
-    println!("Is 17 prime? {}", prime_check);
-}
-```
-
 ## License
-Abrupt is released under the MIT License. See [LICENSE](LICENSE) for details.
+
+Abrupt is distributed under the MIT License. See [LICENSE](LICENSE) for details.
